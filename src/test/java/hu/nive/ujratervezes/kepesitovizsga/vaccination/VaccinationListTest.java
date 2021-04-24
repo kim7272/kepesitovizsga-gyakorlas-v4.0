@@ -1,4 +1,4 @@
-package hu.nive.ujratervezes.kepesitovizsga.vaccination;
+/* package hu.nive.ujratervezes.kepesitovizsga.vaccination;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -77,3 +77,5 @@ public class VaccinationListTest {
         Assertions.assertEquals(3, expected.get(VaccinationType.PFIZER));
     }
 }
+
+ */
