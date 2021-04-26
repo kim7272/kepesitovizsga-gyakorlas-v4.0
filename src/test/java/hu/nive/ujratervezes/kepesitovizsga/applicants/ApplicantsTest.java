@@ -39,7 +39,9 @@ public class ApplicantsTest {
         Assertions.assertEquals("Bolding", applicants.get(12).getLastName());
         Assertions.assertEquals("+353 (391) 686-0269", applicants.get(307).getPhoneNumber());
         Assertions.assertEquals("sbuchananll@goodreads.com", applicants.get(777).getEmail());
+        Assertions.assertEquals("Vaudin", applicants.get(258).getLastName());
         Assertions.assertNull(applicants.get(456).getSkill());
+        System.out.println(applicants.get(258));
         Assertions.assertTrue(applicants.contains(new Applicant("Margarette", "Vaudin", "+33 (596) 756-4732", "mvaudin76@gov.uk")));
     }
 
@@ -57,3 +59,4 @@ public class ApplicantsTest {
         Assertions.assertTrue(applicants.contains(new Applicant("Zackariah", "Strewther", "DLX")));
     }
 }
+
